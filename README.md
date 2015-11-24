@@ -27,7 +27,7 @@ The application is based on the client/server paradigm and relies on a TCP conne
        char text[512];
     }message;
 
-__Important assumptions:__ Usernames and password cannot contain spaces nor be empty strings. Each username is unique and passwords are case sensitive. A valid message necessarily has a subject and a text and neither can be an empty string. The last character of each string is reserved for the NUL terminator, implying that the maximum length of a username is 15 characters (the same logic is applied to passwords). Subject and text strings that exceeds the maximum length of 31 characters and 511 character, respectively, will be truncated.
+__Important assumptions:__ Usernames and passwords cannot contain spaces nor be empty strings. Each username is unique and passwords are case sensitive. A valid message necessarily has a subject and a text and neither can be an empty string. The last character of each string is reserved for the NUL terminator, implying that the maximum length of a username is 15 characters (the same logic is applied to passwords). Subject and text strings that exceeds the maximum length of 31 characters and 511 character, respectively, will be truncated.
 The _Data_ folder and its contents are essential for the proper execution of the application.
 
 __Last notes:__ the user registration procedure was not required, but new users can be easily "registered" by editing the file _users.list_ inside the _Data_ folder, which contains a list of usernames and passwords separated by a space character.
