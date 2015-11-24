@@ -1,6 +1,6 @@
 # remote-messaging-service
 #Introduction
-The following project was initially realized in late 2014 for the Operating Systems course, held by professor Francesco Quaglia at La Sapienza University of Rome.
+The following project was initially realized in late 2014 for the Operating Systems course, held by professor Francesco Quaglia at La Sapienza, University of Rome.
 
 __Language used:__ C
 
