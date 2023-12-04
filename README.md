@@ -1,5 +1,6 @@
 # remote-messaging-service
-#Introduction
+## Introduction
+
 The following project was initially realized in late 2014 for the Operating Systems course, held by professor Francesco Quaglia at La Sapienza, University of Rome.
 
 __Language used:__ C
@@ -13,7 +14,7 @@ Create a messaging service that allows users on different machines to exchange m
 A message must contain  a recipient field, an object field and a text field.
 The messaging system is restricted to authorized users only.
 
-#Implementation choices
+## Implementation choices
 The application is based on the client/server paradigm and relies on a TCP connection. For simplicity purposes I adopted a static memory allocation model, defining 2 new data stractures:
 
     typedef struct _user{
