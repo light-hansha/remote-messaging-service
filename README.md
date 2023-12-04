@@ -5,7 +5,7 @@ The following project was initially realized in late 2014 for the Operating Syst
 
 __Language used:__ C
 
-#Project specification
+## Project specification
 Create a messaging service that allows users on different machines to exchange messages. The messaging service is characterized by a server program which resides  on a specific machine and accepts/stores messages sent from one or more client processes. A client process must provide the following operations:
 * To read all the messages currently stored in the inbox.
 * To send a new message to another user
@@ -33,7 +33,7 @@ The _Data_ folder and its contents are essential for the proper execution of the
 
 __Last notes:__ the user registration procedure was not required, but new users can be easily "registered" by editing the file _users.list_ inside the _Data_ folder, which contains a list of usernames and passwords separated by a space character.
 
-#Server execution
+## Server execution
 Open the terminal and type in the following commands:
 
 `% gcc server.c -o server`
@@ -42,7 +42,7 @@ Open the terminal and type in the following commands:
  
 where % is the Unix prompt.
 
-#Client execution
+## Client execution
 Invoke the compiler as usual:
 
 `% gcc client.c -o client`
